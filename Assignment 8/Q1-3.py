@@ -35,5 +35,5 @@ class Building:
     def fire_alarm(self):
         print("\nFire alert! Lets go to the bottom boys. This place is on fire!")
         for i, elevator in enumerate(self.elevators):
-            print(f"Elevator {i + 1} returning...")
+            print(f"Elevator {i + 1} returning")
             elevator.go_to_floor(self.bottom)
